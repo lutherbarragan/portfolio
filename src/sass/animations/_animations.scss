@@ -10,7 +10,7 @@
 }
 @keyframes fade-in--left {
     0% {
-        transform: translateX(-100px);
+        transform: translateX(-120px);
         opacity: 0;
     }
     
@@ -21,7 +21,7 @@
 }
 @keyframes fade-in--right {
     0% {
-        transform: translateX(100px);
+        transform: translateX(120px);
         opacity: 0;
     }
     
