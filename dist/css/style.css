@@ -8652,4 +8652,27 @@ body {
   background-color: #e7e7e7;
 }
 
+.main {
+  background-image: linear-gradient(to right, #306bde, #114dc3);
+  height: 75vh;
+}
+.main__heading {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__borders {
+  display: block;
+  border-top: 3px solid #343a40;
+  border-bottom: 3px solid #343a40;
+}
+.main__title {
+  display: inline-block;
+  animation: fade-in--left 3s ease-out;
+}
+.main__sub-title {
+  display: inline-block;
+  animation: fade-in--right 3s ease-out;
+}
+
 /*# sourceMappingURL=style.css.map */

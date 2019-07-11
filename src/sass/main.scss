@@ -3,3 +3,29 @@
 body {
     background-color: $secondary;
 }
+
+.main {
+    background-image: linear-gradient(to right, #306bde, #114dc3);
+    height: 75vh;
+
+    &__heading {
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__borders {
+        display: block;
+        border-top: 3px solid $dark;
+        border-bottom: 3px solid $dark;
+    }
+
+    &__title {
+        display: inline-block;
+        animation: fade-in--left 3s ease-out;
+    }
+    &__sub-title {
+        display: inline-block;
+        animation: fade-in--right 3s ease-out;
+    }
+}
