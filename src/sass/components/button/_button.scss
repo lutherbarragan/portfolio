@@ -8,7 +8,9 @@
     font-size: 20px;
     transition: all .3s;
 
+    &:focus,
     &:hover {
+        outline: none;
         text-decoration: none;
         transform: translateY(-5px);
     }
@@ -17,6 +19,7 @@
         color: $dark;
         background-color: $secondary;
 
+        &:focus,
         &:hover {
             color: black;
             background-color: $secondary--dark;
@@ -49,6 +52,7 @@
             transition: all .4s;
         }
         
+        &:focus,
         &:hover {
             
             &::after {

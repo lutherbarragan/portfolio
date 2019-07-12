@@ -8621,7 +8621,8 @@ h3 {
   font-size: 20px;
   transition: all 0.3s;
 }
-.button:hover {
+.button:focus, .button:hover {
+  outline: none;
   text-decoration: none;
   transform: translateY(-5px);
 }
@@ -8629,7 +8630,7 @@ h3 {
   color: #343a40;
   background-color: #e7e7e7;
 }
-.button--light:hover {
+.button--light:focus, .button--light:hover {
   color: black;
   background-color: #d1d1d1;
 }
@@ -8657,7 +8658,7 @@ h3 {
   background-color: inherit;
   transition: all 0.4s;
 }
-.button--anim:hover::after {
+.button--anim:focus::after, .button--anim:hover::after {
   transform: scaleX(1.4) scaleY(1.4);
   background-color: inherit;
   opacity: 0;
@@ -8735,15 +8736,17 @@ body {
   border: none;
   border-bottom: 2px solid transparent;
 }
-.main__email-btn:focus {
+.main__email-btn:focus, .main__email-btn:hover {
+  color: #f8f9fa;
   outline: none;
   border-bottom: 2px solid #f8f9fa;
-  color: #f8f9fa;
-}
-.main__email-btn:hover {
-  color: #f8f9fa;
   cursor: pointer;
-  border-bottom: 2px solid #f8f9fa;
+}
+.main__email-btn:focus #myEmailText, .main__email-btn:hover #myEmailText {
+  color: inherit;
+}
+.main__email-btn #myEmailText {
+  color: #1f1f1f;
 }
 .main__contact-icons {
   animation: fade-in 2s 1s backwards;
@@ -8752,7 +8755,8 @@ body {
   color: #1f1f1f;
   transition: all 0.25s;
 }
-.main__contact-icons .contact-icon:hover {
+.main__contact-icons .contact-icon:focus, .main__contact-icons .contact-icon:hover {
+  outline: none;
   color: #f8f9fa !important;
 }
 .main #myEmail {

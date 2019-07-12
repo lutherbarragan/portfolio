@@ -36,19 +36,21 @@ body {
         border: none;
         border-bottom: 2px solid transparent;
 
-        &:focus {
-            outline: none;
-            border-bottom: 2px solid $light;
-            color: $light;
-        }
-        
+        &:focus,
         &:hover {
             color: $light;
-            cursor: pointer;
+            outline: none;
             border-bottom: 2px solid $light;
+            cursor: pointer;
+        
+            & #myEmailText {
+                color: inherit;
+            }
         }
         
-
+        & #myEmailText {
+            color: #1f1f1f;
+        }
     }
 
     &__contact-icons {
@@ -56,10 +58,12 @@ body {
         
 
         & .contact-icon {
-            color: rgb(31, 31, 31);
+            color: #1f1f1f;
             transition: all .25s;
 
+            &:focus,
             &:hover {
+                outline: none;
                 color: $light !important;
             }
         }
