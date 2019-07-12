@@ -8755,6 +8755,11 @@ body {
 .main__contact-icons .contact-icon:hover {
   color: #f8f9fa !important;
 }
+.main #myEmail {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
 .main__button {
   display: inline-block;
   animation: fade-in--bottom 2s 1s backwards;
