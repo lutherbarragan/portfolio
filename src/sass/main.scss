@@ -6,7 +6,7 @@ body {
 
 .main {
     background-image: linear-gradient(to right, #306bde, #114dc3);
-    height: 75vh;
+    height: 80vh;
 
     &__heading {
         top: 50%;
@@ -31,13 +31,33 @@ body {
         animation: fade-in--right 3s ease-out;
     }
 
+    &__email-btn {
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+
+        &:focus {
+            outline: none;
+            border-bottom: 2px solid $light;
+            color: $light;
+        }
+        
+        &:hover {
+            color: $light;
+            cursor: pointer;
+            border-bottom: 2px solid $light;
+        }
+        
+
+    }
+
     &__contact-icons {
         animation: fade-in 2s 1s backwards;
         
 
         & .contact-icon {
             color: rgb(31, 31, 31);
-            transition: all .3s;
+            transition: all .25s;
 
             &:hover {
                 color: $light !important;
@@ -48,5 +68,9 @@ body {
     &__button {
         display: inline-block;
         animation: fade-in--bottom 2s 1s backwards;
+    }
+
+    & #particles-js {
+        height: 100%;
     }
 }

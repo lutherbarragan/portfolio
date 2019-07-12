@@ -18,14 +18,27 @@
             <span class="main__sub-title display-4 text-light d-block pt-2">Full Stack Developer</span>
 
             <span class="main__contact-icons display-4 d-block mt-4 mb-5">
-                <a href="https://github.com/Luther0211" class="contact-icon"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/lutherbarragan/" class="contact-icon"><i class="fab fa-linkedin"></i></a>
+                <input type="hidden"  id="myEmail" class="d-block" value="lutherbarragan@gmail.com" readonly />
+                <button class="main__email-btn mb-3 d-inline-block" onclick="copyEmail()">
+                    <small>lutherbarragan@gmail.com</small>
+                </button>
+                <div class="">
+                    <a href="https://github.com/Luther0211" class="contact-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lutherbarragan/" class="contact-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
             </span>
 
             <a href="#" class="main__button button button--light button--big button--anim shadow mt-5">See my projects</a>
         </h1>
 
-
+        <div id="particles-js"></div>
     </main>
+
+
+
+
+
+    <script src="dist/js/particles.js"></script>
+    <script src="dist/js/main.js"></script>
 </body>
 </html>

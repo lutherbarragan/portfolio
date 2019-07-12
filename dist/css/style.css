@@ -8708,7 +8708,7 @@ body {
 
 .main {
   background-image: linear-gradient(to right, #306bde, #114dc3);
-  height: 75vh;
+  height: 80vh;
 }
 .main__heading {
   top: 50%;
@@ -8730,12 +8730,27 @@ body {
   display: inline-block;
   animation: fade-in--right 3s ease-out;
 }
+.main__email-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+.main__email-btn:focus {
+  outline: none;
+  border-bottom: 2px solid #f8f9fa;
+  color: #f8f9fa;
+}
+.main__email-btn:hover {
+  color: #f8f9fa;
+  cursor: pointer;
+  border-bottom: 2px solid #f8f9fa;
+}
 .main__contact-icons {
   animation: fade-in 2s 1s backwards;
 }
 .main__contact-icons .contact-icon {
   color: #1f1f1f;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 .main__contact-icons .contact-icon:hover {
   color: #f8f9fa !important;
@@ -8743,6 +8758,9 @@ body {
 .main__button {
   display: inline-block;
   animation: fade-in--bottom 2s 1s backwards;
+}
+.main #particles-js {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
