@@ -8633,6 +8633,14 @@ h3 {
   color: black;
   background-color: #d1d1d1;
 }
+.button--big {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
 .button--anim {
   position: relative;
 }
