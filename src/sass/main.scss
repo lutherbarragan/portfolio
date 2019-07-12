@@ -16,16 +16,23 @@ body {
 
     &__borders {
         display: block;
-        border-top: 3px solid $dark;
-        border-bottom: 3px solid $dark;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
     }
 
     &__title {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
         display: inline-block;
         animation: fade-in--left 3s ease-out;
     }
     &__sub-title {
         display: inline-block;
         animation: fade-in--right 3s ease-out;
+    }
+
+    &__button {
+        display: inline-block;
+        animation: fade-in--bottom 2s 1s backwards;
     }
 }
