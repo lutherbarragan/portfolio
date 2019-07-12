@@ -8703,7 +8703,7 @@ body {
   height: 75vh;
 }
 .main__heading {
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -8721,6 +8721,16 @@ body {
 .main__sub-title {
   display: inline-block;
   animation: fade-in--right 3s ease-out;
+}
+.main__contact-icons {
+  animation: fade-in 2s 1s backwards;
+}
+.main__contact-icons .contact-icon {
+  color: #1f1f1f;
+  transition: all 0.3s;
+}
+.main__contact-icons .contact-icon:hover {
+  color: #f8f9fa !important;
 }
 .main__button {
   display: inline-block;

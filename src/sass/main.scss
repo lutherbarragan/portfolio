@@ -9,7 +9,7 @@ body {
     height: 75vh;
 
     &__heading {
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -29,6 +29,20 @@ body {
     &__sub-title {
         display: inline-block;
         animation: fade-in--right 3s ease-out;
+    }
+
+    &__contact-icons {
+        animation: fade-in 2s 1s backwards;
+        
+
+        & .contact-icon {
+            color: rgb(31, 31, 31);
+            transition: all .3s;
+
+            &:hover {
+                color: $light !important;
+            }
+        }
     }
 
     &__button {
