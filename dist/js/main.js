@@ -2,6 +2,10 @@ particlesJS.load('particles-js', 'dist/js/assets/particlesjs-config.json', funct
     console.log('callback - particles.js config loaded');
 });
 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+
 function copyEmail() {
     /* Get the text field */
     var copyText = document.getElementById("myEmail");
