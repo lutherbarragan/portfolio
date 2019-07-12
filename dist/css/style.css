@@ -8710,6 +8710,7 @@ body {
 .main {
   background-image: linear-gradient(to right, #306bde, #114dc3);
   height: 80vh;
+  border-bottom: 3px solid #1f1f1f;
 }
 .main__heading {
   top: 50%;
@@ -8719,8 +8720,8 @@ body {
 }
 .main__borders {
   display: block;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #1f1f1f;
+  border-bottom: 3px solid #1f1f1f;
 }
 .main__title {
   font-family: "Work Sans", sans-serif;
@@ -8772,17 +8773,17 @@ body {
 .main__triangle {
   position: absolute;
   width: 100%;
-  height: 40%;
+  height: 70%;
 }
-.main__triangle--1 {
-  bottom: 0;
-  clip-path: polygon(0 0, 100% 100%, 0 100%);
-  background-image: linear-gradient(to right bottom, rgba(17, 77, 195, 0), rgba(17, 77, 195, 0.3), rgba(17, 77, 195, 0.6), rgba(17, 77, 195, 0.9));
-}
-.main__triangle--2 {
+.main__triangle--top {
   top: 0;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background-image: linear-gradient(to left top, rgba(17, 77, 195, 0), rgba(17, 77, 195, 0.5), rgba(17, 77, 195, 0.5));
+  background-image: linear-gradient(to left top, rgba(17, 77, 195, 0), rgba(17, 77, 195, 0.3), rgba(17, 77, 195, 0.7));
+}
+.main__triangle--bottom {
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+  background-image: linear-gradient(to right bottom, rgba(48, 107, 222, 0), rgba(48, 107, 222, 0.3), rgba(48, 107, 222, 0.7));
 }
 .main #particles-js {
   height: 100%;
