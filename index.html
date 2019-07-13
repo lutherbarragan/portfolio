@@ -9,27 +9,27 @@
     <title>Luther Barragan</title>
 </head>
 <body>
-    <main class="main jumbotron-fluid w-100 position-relative">
-        
-        <h1 class="main__heading position-absolute text-center">
-            <span class="main__borders">
-                <span class="main__title display-1 pb-1">Luther Barragan</span>
-            </span>
-            <span class="main__sub-title display-4 text-light d-block pt-2">Full Stack Developer</span>
+    <main class="main jumbotron-fluid position-relative">
 
-            <span class="main__contact-icons display-4 d-block mt-3 mb-4 mb-md-4">
-                <input type="text" id="myEmail" value="lutherbarragan@gmail.com" readonly />
-                <button class="main__email-btn mb-4 d-inline-block" onclick="copyEmail()">
+        <div class="side-icons d-block">
+            <a href="https://github.com/Luther0211"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lutherbarragan/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        <div class="main__heading position-absolute w-100 text-center">
+            
+            <h1>
+                <span class="main__title display-1 pb-1">Luther Barragan</span>
+                <span class="main__sub-title display-4 text-light d-block">Full Stack Developer</span>
+                <button class="main__email-btn" onclick="copyEmail()">
                     <small id="myEmailText" data-toggle="tooltip" data-placement="bottom" title="Click to Copy email">lutherbarragan@gmail.com</small>
                 </button>
-                <div class="">
-                    <a href="https://github.com/Luther0211" class="contact-icon"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/lutherbarragan/" class="contact-icon"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </span>
+                <input type="text" id="myEmail" value="lutherbarragan@gmail.com" readonly />
+            </h1>
 
-            <a href="#" class="main__button button button--light button--big button--anim shadow mt-md-4">See my projects</a>
-        </h1>
+            <a href="#" class="main__button btn btn-lg btn-light button button--anim shadow">See my projects</a>
+            
+        </div>
 
         <div class="main__triangle main__triangle--top"></div>
         <div class="main__triangle main__triangle--bottom"></div>

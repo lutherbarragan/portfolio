@@ -8612,13 +8612,8 @@ h3 {
   }
 }
 .button {
-  text-align: center;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
   text-decoration: none;
   transition: all 0.2s;
-  font-size: 20px;
   transition: all 0.3s;
 }
 .button:focus, .button:hover {
@@ -8653,7 +8648,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 50px;
+  border-radius: inherit;
   z-index: -1;
   background-color: inherit;
   transition: all 0.4s;
@@ -8710,58 +8705,12 @@ h3 {
     opacity: 1;
   }
 }
-@media (max-width: 1200px) {
-  .main {
-    height: 80vh !important;
-  }
-  .main__borders {
-    border-top: 3px solid #1f1f1f !important;
-    border-bottom: 3px solid #1f1f1f !important;
-  }
-  .main__title {
-    font-size: 75px !important;
-  }
-  .main__sub-title {
-    font-size: 50px !important;
-  }
-  .main__email-btn, .main__contact-icons {
-    font-size: 60px !important;
-  }
-  .main__email-btn a, .main__contact-icons a {
-    font-size: 44px !important;
-  }
-}
 @media (max-width: 992px) {
   .main {
     height: 60vh !important;
   }
-  .main__borders {
-    border-top: 2px solid #1f1f1f !important;
-    border-bottom: 2px solid #1f1f1f !important;
-  }
   .main__title {
-    font-size: 55px !important;
-  }
-  .main__sub-title {
-    font-size: 36px !important;
-  }
-  .main__email-btn, .main__contact-icons {
-    font-size: 38px !important;
-  }
-  .main__email-btn a, .main__contact-icons a {
-    font-size: 44px !important;
-  }
-}
-@media (max-width: 767px) {
-  .main {
-    height: 60vh !important;
-  }
-  .main__borders {
-    border-top: 1px solid #1f1f1f !important;
-    border-bottom: 1px solid #1f1f1f !important;
-  }
-  .main__title {
-    font-size: 50px !important;
+    font-size: 60px !important;
   }
   .main__sub-title {
     font-size: 36px !important;
@@ -8774,18 +8723,22 @@ h3 {
   }
 }
 @media (max-width: 575px) {
+  .side-icons {
+    font-size: 30px !important;
+  }
+
   .main {
     height: 60vh !important;
-  }
-  .main__borders {
-    border-top: 1px solid #1f1f1f !important;
-    border-bottom: 1px solid #1f1f1f !important;
   }
   .main__title {
     font-size: 36px !important;
   }
   .main__sub-title {
     font-size: 22px !important;
+  }
+  .main__button {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.6rem;
   }
   .main__email-btn, .main__contact-icons {
     font-size: 28px !important;
@@ -8796,6 +8749,20 @@ h3 {
 }
 body {
   background-color: #e7e7e7;
+}
+
+.side-icons {
+  font-size: 45px;
+  position: fixed;
+  left: 10px;
+  z-index: 999;
+}
+.side-icons a {
+  color: #1f1f1f;
+  transition: all 0.2s;
+}
+.side-icons a:hover {
+  color: #f8f9fa;
 }
 
 .main {
@@ -8810,27 +8777,24 @@ body {
   z-index: 999;
   transform: translate(-50%, -50%);
 }
-.main__borders {
-  display: flex;
-  justify-content: center;
-  border-top: 3px solid #1f1f1f;
-  border-bottom: 3px solid #1f1f1f;
-}
 .main__title {
   font-size: 75px;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
+  border-bottom: 1px solid #f8f9fa;
   display: inline-block;
   animation: fade-in--left 3s ease-out;
 }
 .main__sub-title {
-  display: inline-block;
+  display: block;
+  font-weight: 600;
   animation: fade-in--right 3s ease-out;
 }
 .main__email-btn {
   background: none;
   border: none;
   border-bottom: 2px solid transparent;
+  animation: fade-in 2s 2s backwards;
 }
 .main__email-btn:focus, .main__email-btn:hover {
   color: #f8f9fa;
@@ -8856,14 +8820,16 @@ body {
   color: #f8f9fa !important;
 }
 .main #myEmail {
-  width: 100%;
+  width: 10%;
   height: 0;
   position: absolute;
+  top: 0;
+  left: 0;
   opacity: 0;
   z-index: -1;
 }
 .main__button {
-  display: inline-block;
+  margin-top: 40px;
   animation: fade-in--bottom 2s 1s backwards;
 }
 .main__triangle {
@@ -8883,6 +8849,7 @@ body {
 }
 .main #particles-js {
   height: 100%;
+  opacity: 0.3;
 }
 
 /*# sourceMappingURL=style.css.map */
