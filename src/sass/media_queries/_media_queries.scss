@@ -1,0 +1,27 @@
+@media (max-width: 575px) {
+.main {
+    height: 60vh !important;
+
+    &__borders {
+        border-top: 1px solid #1f1f1f !important;
+        border-bottom: 1px solid #1f1f1f !important;
+    }
+
+    &__title {
+        font-size: 36px;
+    }
+
+    &__sub-title {
+        font-size: 22px;
+    }   
+
+    &__email-btn,
+    &__contact-icons {
+        font-size: 28px;
+
+        & a {
+            font-size: 34px;
+        }
+    }
+}
+}
