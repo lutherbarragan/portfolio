@@ -1,22 +1,37 @@
 @media (max-width: 992px) {
     .main {
-        height: 60vh !important;
+        height: 70vh !important;
+
+        &__heading {
+            min-width: 380px !important;
+        }
 
         &__title {
-        font-size: 60px !important;
+        font-size: 45px !important;
         }
         
         &__sub-title {
-            font-size: 36px !important;
+            font-size: 32px !important;
         }   
         
         &__email-btn,
         &__contact-icons {
             font-size: 38px !important;
+        }
+    }
 
-            & a {
-                font-size: 44px !important;
-            }
+    .about-me {
+        &__heading {
+            font-size: 50px;
+        }
+        &__paragraph {
+            font-size: 18px;
+        }
+    }
+
+    .projects {
+        &__heading {
+            font-size: 50px;
         }
     }
 }
@@ -26,10 +41,15 @@
     }
 
     .main {
-        height: 60vh !important;
+        height: 80vh !important;
+
+        &__heading {
+            min-width: 300px !important;
+        }
 
         &__title {
-            font-size: 36px !important;
+            font-size: 34px !important;
+            border-bottom: 1px solid black !important;
         }
 
         &__sub-title {
@@ -48,6 +68,21 @@
             & a {
                 font-size: 34px !important;
             }
+        }
+    }
+
+    .about-me {
+        &__heading {
+            font-size: 40px;
+        }
+        &__paragraph {
+            font-size: 16px;
+        }
+    }
+
+    .projects {
+        &__heading {
+            font-size: 40px;
         }
     }
 }
