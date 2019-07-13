@@ -7,6 +7,7 @@ body {
 .main {
     background-image: linear-gradient(to right, #306bde, #114dc3);
     height: 80vh;
+    min-height: 360px;
     border-bottom: 3px solid #1f1f1f;
 
     &__heading {
@@ -25,6 +26,7 @@ body {
     }
 
     &__title {
+        font-size: 75px;
         font-family: 'Work Sans', sans-serif;
         font-weight: 300;
         display: inline-block;

@@ -1,3 +1,89 @@
+@media (max-width: 1200px) {
+    .main {
+        height: 80vh !important;
+        
+        &__borders {
+            border-top: 3px solid #1f1f1f !important;
+            border-bottom: 3px solid #1f1f1f !important;
+        }
+
+        &__title {
+        font-size: 75px !important;
+    }
+    
+    &__sub-title {
+        font-size: 50px !important;
+    }   
+    
+    &__email-btn,
+    &__contact-icons {
+        font-size: 60px !important;
+
+        & a {
+            font-size: 44px !important;
+        }
+    }
+}
+}
+
+
+@media (max-width: 992px) {
+    .main {
+        height: 60vh !important;
+        
+        &__borders {
+            border-top: 2px solid #1f1f1f !important;
+            border-bottom: 2px solid #1f1f1f !important;
+        }
+
+        &__title {
+        font-size: 55px !important;
+    }
+    
+    &__sub-title {
+        font-size: 36px !important;
+    }   
+    
+    &__email-btn,
+    &__contact-icons {
+        font-size: 38px !important;
+
+        & a {
+            font-size: 44px !important;
+        }
+    }
+}
+}
+
+
+@media (max-width: 767px) {
+    .main {
+    height: 60vh !important;
+    
+    &__borders {
+        border-top: 1px solid #1f1f1f !important;
+        border-bottom: 1px solid #1f1f1f !important;
+    }
+    
+    &__title {
+        font-size: 50px !important;
+    }
+
+    &__sub-title {
+        font-size: 36px !important;
+    }   
+    
+    &__email-btn,
+    &__contact-icons {
+        font-size: 38px !important;
+
+        & a {
+            font-size: 44px !important;
+        }
+    }
+}
+}
+
 @media (max-width: 575px) {
 .main {
     height: 60vh !important;
@@ -8,19 +94,19 @@
     }
 
     &__title {
-        font-size: 36px;
+        font-size: 36px !important;
     }
 
     &__sub-title {
-        font-size: 22px;
+        font-size: 22px !important;
     }   
 
     &__email-btn,
     &__contact-icons {
-        font-size: 28px;
+        font-size: 28px !important;
 
         & a {
-            font-size: 34px;
+            font-size: 34px !important;
         }
     }
 }
