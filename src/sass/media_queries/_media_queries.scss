@@ -33,8 +33,34 @@
         &__heading {
             font-size: 50px;
         }
+
+        & .project {
+            &__title {
+                font-size: 24px !important;
+                border-bottom: 1px solid #42424266;
+            }
+    
+            &__desc {
+                font-size: 14px !important;
+            }
+    
+            &__technologies {
+                font-size: 14px !important;    
+            }
+    
+            &__buttons {
+                bottom: 5px !important;
+                left: 5px !important;
+    
+                & a:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 }
+
+
 @media (max-width: 575px) {
     .side-icons {
         font-size: 30px !important;

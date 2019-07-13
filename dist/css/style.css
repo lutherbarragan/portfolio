@@ -8732,6 +8732,23 @@ h3 {
   .projects__heading {
     font-size: 50px;
   }
+  .projects .project__title {
+    font-size: 24px !important;
+    border-bottom: 1px solid #42424266;
+  }
+  .projects .project__desc {
+    font-size: 14px !important;
+  }
+  .projects .project__technologies {
+    font-size: 14px !important;
+  }
+  .projects .project__buttons {
+    bottom: 5px !important;
+    left: 5px !important;
+  }
+  .projects .project__buttons a:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 @media (max-width: 575px) {
   .side-icons {
@@ -8886,7 +8903,7 @@ body {
 }
 
 .about-me {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  border-bottom: 1px solid #80808066;
 }
 .about-me__heading {
   text-align: center;
@@ -8901,6 +8918,40 @@ body {
 .projects__heading {
   font-family: "Yantramanav", sans-serif;
   color: #114dc3ff;
+}
+.projects .project {
+  margin: 0 10px;
+  position: relative;
+}
+.projects .project__body {
+  padding: 10px;
+}
+.projects .project__title {
+  font-family: "Yantramanav", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #114dc3ff;
+  border-bottom: 1px solid #42424266;
+}
+.projects .project__desc {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projects .project__technologies {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Yantramanav", sans-serif;
+}
+.projects .project__technologies__elem {
+  color: #114dc3ff;
+}
+.projects .project__buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.projects .project__buttons a:not(:last-child) {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

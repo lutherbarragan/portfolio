@@ -140,7 +140,7 @@ body {
 }
 
 .about-me {
-    border-bottom: 1px solid rgba(128, 128, 128, .4);
+    border-bottom: 1px solid #80808066;
 
     &__heading {
         text-align: center;
@@ -155,8 +155,53 @@ body {
 }
 
 .projects {
+    // padding: 0 10px !important;
+
     &__heading {
         font-family: 'Yantramanav', sans-serif;
         color: $primary--dark;
+    }
+
+    & .project {
+        margin: 0 10px;
+        position: relative;
+
+        &__body {
+            padding: 10px;
+        }
+
+        &__title {
+            font-family: 'Yantramanav', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            color: $primary--dark;
+            border-bottom: 1px solid #42424266;
+        }
+
+        &__desc {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        &__technologies {
+            font-size: 16px;
+            font-weight: 500;
+            font-family: 'Yantramanav', sans-serif;
+
+            &__elem {
+                color: $primary--dark;
+            }
+
+        }
+
+        &__buttons {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+
+            & a:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
     }
 }
