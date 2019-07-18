@@ -184,12 +184,11 @@ body {
         }
 
         &__technologies {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
-            font-family: 'Yantramanav', sans-serif;
 
             &__elem {
-                color: $primary--dark;
+                font-weight: inherit;
             }
 
         }

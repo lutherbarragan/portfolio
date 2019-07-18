@@ -8938,12 +8938,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .projects .project__technologies {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
-  font-family: "Yantramanav", sans-serif;
 }
 .projects .project__technologies__elem {
-  color: #114dc3ff;
+  font-weight: inherit;
 }
 .projects .project__buttons {
   position: absolute;
