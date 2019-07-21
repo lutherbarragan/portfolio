@@ -139,6 +139,10 @@ body {
     }
 }
 
+.list-group-item {
+    background-color: $secondary;
+}
+
 .about-me {
     border-bottom: 1px solid #80808066;
 
@@ -154,8 +158,17 @@ body {
     }
 }
 
+.skills {
+    border-bottom: 1px solid #80808066;
+    
+    &__heading {
+        text-align: center;
+        font-family: 'Yantramanav', sans-serif;
+        color: $primary--dark;
+    }
+}
+
 .projects {
-    // padding: 0 10px !important;
 
     &__heading {
         font-family: 'Yantramanav', sans-serif;
