@@ -8722,10 +8722,12 @@ h3 {
     font-size: 38px !important;
   }
 
-  .about-me__heading {
+  .about-me__heading,
+.skills__heading {
     font-size: 50px;
   }
-  .about-me__paragraph {
+  .about-me__paragraph,
+.skills__paragraph {
     font-size: 18px;
   }
 
@@ -8779,15 +8781,15 @@ h3 {
     font-size: 34px !important;
   }
 
-  .about-me__heading {
+  .about-me__heading,
+.skills__heading,
+.projects__heading {
     font-size: 40px;
   }
-  .about-me__paragraph {
+  .about-me__paragraph,
+.skills__paragraph,
+.projects__paragraph {
     font-size: 16px;
-  }
-
-  .projects__heading {
-    font-size: 40px;
   }
 }
 html {
