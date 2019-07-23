@@ -8774,10 +8774,10 @@ h3 {
     font-size: 0.9rem;
     padding: 0.2rem 0.6rem;
   }
-  .main__email-btn, .main__contact-icons {
+  .main__email-btn, .main__resume-btn, .main__contact-icons {
     font-size: 28px !important;
   }
-  .main__email-btn a, .main__contact-icons a {
+  .main__email-btn a, .main__resume-btn a, .main__contact-icons a {
     font-size: 34px !important;
   }
 
@@ -8858,6 +8858,13 @@ body {
 }
 .main__email-btn #myEmailText {
   color: #1f1f1f;
+}
+.main__resume-btn {
+  animation: fade-in 2s 2s backwards;
+}
+.main__resume-btn:hover {
+  text-decoration: none;
+  color: #d1d1d1;
 }
 .main__contact-icons {
   animation: fade-in 2s 1s backwards;

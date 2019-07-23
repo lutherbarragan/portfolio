@@ -58,7 +58,7 @@ body {
         border: none;
         border-bottom: 2px solid transparent;
 
-         animation: fade-in 2s 2s backwards;
+        animation: fade-in 2s 2s backwards;
 
         &:focus,
         &:hover {
@@ -74,6 +74,15 @@ body {
         
         & #myEmailText {
             color: #1f1f1f;
+        }
+    }
+
+    &__resume-btn {
+        animation: fade-in 2s 2s backwards;
+
+        &:hover {
+            text-decoration: none;
+            color: $secondary--dark;
         }
     }
 
