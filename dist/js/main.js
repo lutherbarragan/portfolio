@@ -1,4 +1,4 @@
-particlesJS.load('particles-js', 'dist/js/assets/particlesjs-config.json', function() {
+particlesJS.load('particles-js', '/dist/js/assets/particlesjs-config.json', function() {
     console.log('callback - particles.js config loaded');
 });
 
