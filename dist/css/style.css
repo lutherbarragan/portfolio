@@ -8964,6 +8964,7 @@ body {
   font-weight: 500;
 }
 .projects .project__technologies__elem {
+  background-color: #306bde;
   font-weight: inherit;
 }
 .projects .project__buttons {
