@@ -8913,6 +8913,7 @@ body {
 
 .list-group-item {
   background-color: #e7e7e7;
+  border: none;
 }
 
 .about-me {
@@ -8935,6 +8936,21 @@ body {
   text-align: center;
   font-family: "Yantramanav", sans-serif;
   color: #114dc3ff;
+}
+.skills__list {
+  margin: 0;
+  padding: 0;
+}
+.skills__list-item {
+  list-style: none;
+}
+.skills__list--left {
+  padding-left: 0;
+  border-color: #80808066 !important;
+}
+.skills__list--right {
+  padding-right: 0;
+  border-color: #80808066 !important;
 }
 
 .projects__heading {

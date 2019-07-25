@@ -150,6 +150,7 @@ body {
 
 .list-group-item {
     background-color: $secondary;
+    border: none;
 }
 
 .about-me {
@@ -175,6 +176,25 @@ body {
         font-family: 'Yantramanav', sans-serif;
         color: $primary--dark;
     }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        &-item {
+            list-style: none;
+        }
+
+        &--left {
+            padding-left: 0;
+            border-color: #80808066 !important;
+        }
+        &--right {
+            padding-right: 0;
+            border-color: #80808066 !important;
+        }
+    }
+
 }
 
 .projects {
