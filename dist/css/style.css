@@ -8816,7 +8816,7 @@ body {
 
 .main {
   background-image: linear-gradient(to right, #306bde, #114dc3);
-  height: 80vh;
+  height: 100vh;
   min-height: 360px;
   border-bottom: 3px solid #1f1f1f;
 }
@@ -8830,7 +8830,7 @@ body {
 }
 .main__title {
   font-size: 75px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: Roboto, Helvetica, Helvetica Neue, Arial, sans-serif;
   font-weight: 100;
   border-bottom: 2px solid black;
   display: inline-block;
