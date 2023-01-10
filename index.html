@@ -1,257 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="/dist/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="/dist/css/style.css">
-    <!-- VERSION 7 // updated resume 2020 v1 -->
-    <title>Luther Barragan</title>
-</head>
-<body>
-    <main class="main jumbotron-fluid position-relative">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="shortcut icon" href="/dist/images/favicon.png" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/dist/css/style.css" />
+		<!-- VERSION 7 // updated resume 2020 v1 -->
+		<title>Luther Barragan</title>
+	</head>
+	<body>
+		<main class="main jumbotron-fluid position-relative">
+			<div class="side-icons d-block">
+				<a href="https://github.com/lutherbarragan"><i class="fab fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/lutherbarragan/"><i class="fab fa-linkedin"></i></a>
+			</div>
 
-        <div class="side-icons d-block">
-            <a href="https://github.com/lutherbarragan"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/lutherbarragan/"><i class="fab fa-linkedin"></i></a>
-        </div>
-        
-        <div class="main__heading position-absolute text-center">
-            
-            <h1>
-                <span class="main__title display-1 text-light">LUTHER BARRAGAN</span>
-                <span class="main__sub-title display-4 text-light d-block">Full Stack Developer</span>
-                <button class="main__email-btn" onclick="copyEmail()" data-toggle="tooltip" data-placement="bottom" title="Click to Copy email">
-                    <small id="myEmailText">lutherbarragan@gmail.com</small>
-                </button>
-                <br>
-                <input type="text" id="myEmail" value="lutherbarragan@gmail.com" readonly />
-            </h1>
-            
-            <h2>
-                <a class="main__resume-btn text-light" href="/dist/resume/Luther Barragan resume.pdf" download="Luther Barragan Resume">
-                    <i class="fas fa-file-pdf mt-4"></i>
-                    <small>Download Resume</small>
-                </a>
-            </h2>
+			<div class="main__heading position-absolute text-center">
+				<h1>
+					<span class="main__title display-1 text-light">LUTHER BARRAGAN</span>
+					<span class="main__sub-title display-4 text-light d-block">Full Stack Developer</span>
+					<button
+						class="main__email-btn"
+						onclick="copyEmail()"
+						data-toggle="tooltip"
+						data-placement="bottom"
+						title="Click to Copy email"
+					>
+						<small id="myEmailText">lutherbarragan@gmail.com</small>
+					</button>
+					<br />
+					<input type="text" id="myEmail" value="lutherbarragan@gmail.com" readonly />
+				</h1>
 
-            <a href="#MyProjects" class="main__button btn btn-lg btn-light button button--anim shadow">See my projects</a>
-            
-        </div>
+				<h2>
+					<a
+						class="main__resume-btn text-light"
+						href="/dist/resume/Luther Barragan resume.pdf"
+						download="Luther Barragan Resume"
+					>
+						<i class="fas fa-file-pdf mt-4"></i>
+						<small>Download Resume</small>
+					</a>
+				</h2>
 
-        <div class="main__triangle main__triangle--top"></div>
-        <div class="main__triangle main__triangle--bottom"></div>
-        <div id="particles-js"></div>
-    </main>
+				<a href="#MyProjects" class="main__button btn btn-lg btn-light button button--anim shadow"
+					>See my projects</a
+				>
+			</div>
 
-    <section class="about-me container mt-5">
-        <h2 class="about-me__heading display-4 ">ABOUT ME</h2>        
-        <p class="about-me__paragraph lead pb-4">Hi! My name is <b>Luther Barragan</b> and I just moved to Illinois. I'm a detail-oriented Web Developer with a commitment for delivering elegant, user-friendly solutions effectively and efficiently. Armed with a great understanding of front and back end development. Looking to enhance my professional experience with an IT company specializing in web development.</p>
-    </section>
+			<div class="main__triangle main__triangle--top"></div>
+			<div class="main__triangle main__triangle--bottom"></div>
+			<div id="particles-js"></div>
+		</main>
 
-    <section class="skills container text-center mt-5 pb-5">
-        <h2 class="skills__heading display-4 ">TECHNICAL SKILLS</h2>        
-        
-        <div class="row">
-            
-            <div class="col-12 col-md-4 mt-4 mt-md-0">
-                <h3 class="skills__sub-title text-primary font-weight-light">FRONT-END</h3>
-                <div class="container-fluid">
-                    <ul class="skills__list row">
-                        <div class="skills__list--left col-6 pr-2 text-right border-right">
-                            <li class="skills__list-item">HTML5</li>
-                            <li class="skills__list-item">CSS3</li>
-                            <li class="skills__list-item">SASS</li>
-                            <li class="skills__list-item">JavaScript</li>
-                            <li class="skills__list-item">Bootstrap</li>
-                        </div>
-                        <div class="skills__list--right col-6 pl-2 text-left border-left">
-                            <li class="skills__list-item">React JS</li>
-                            <li class="skills__list-item">Redux</li>
-                            <li class="skills__list-item">jQuery</li>
-                            <li class="skills__list-item">Responsive-</li>
-                            <li class="skills__list-item">Design</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-12 col-md-4 mt-5 mt-md-0">
-                <h3 class="skills__sub-title text-primary font-weight-light">BACK-END</h3>
-                <div class="container-fluid">
-                    <ul class="skills__list row">
-                        <div class="skills__list--left col-6 pr-2 text-right border-right">
-                            <li class="skills__list-item">Node JS</li>
-                            <li class="skills__list-item">Express</li>
-                            <li class="skills__list-item">MongoDB</li>
-                            <li class="skills__list-item">Mongoose</li>
-                            <li class="skills__list-item">RESTful API</li>
-                        </div>
-                        <div class="skills__list--right col-6 pl-2 text-left border-left">
-                            <li class="skills__list-item">Authentication</li>
-                            <li class="skills__list-item">Sessions</li>
-                            <li class="skills__list-item">JWT</li>
-                            <li class="skills__list-item">EJS</li>
-                            <li class="skills__list-item">HTTP</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-12 col-md-4 mt-5 mt-md-0">
-                <h3 class="skills__sub-title text-primary font-weight-light">OTHER</h3>
-                <div class="container-fluid">
-                    <ul class="skills__list row">
-                        <div class="skills__list--left col-6 pr-2 text-right border-right">
-                            <li class="skills__list-item">CLI</li>
-                            <li class="skills__list-item">NPM</li>
-                            <li class="skills__list-item">Git/GitHub</li>
-                            <li class="skills__list-item">Postman</li>
-                            <li class="skills__list-item">Compass</li>
-                        </div>
-                        <div class="skills__list--right col-6 pl-2 text-left border-left">
-                            <li class="skills__list-item">Webpack</li>
-                            <li class="skills__list-item">Babel</li>
-                            <li class="skills__list-item">Async/Await</li>
-                            <li class="skills__list-item">AJAX</li>
-                            <li class="skills__list-item">MVC</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
+		<section class="about-me container mt-5">
+			<h2 class="about-me__heading display-4">ABOUT ME</h2>
+			<p class="about-me__paragraph lead pb-4">
+				Hi! My name is <b>Luther Barragan</b> and I just moved to Illinois. I'm a detail-oriented Web Developer
+				with a commitment for delivering elegant, user-friendly solutions effectively and efficiently. Armed
+				with a great understanding of front and back end development. Looking to enhance my professional
+				experience with an IT company specializing in web development.
+			</p>
+		</section>
 
-        </div>
-        
-    </section>
+		<section class="skills container text-center mt-5 pb-5">
+			<h2 class="skills__heading display-4">TECHNICAL SKILLS</h2>
 
-    <section id="MyProjects" class="projects container mt-5">
-        <h2 class="projects__heading display-4 text-center mb-5">MY PROJECTS</h2>
+			<div class="row">
+				<div class="col-12 col-md-4 mt-4 mt-md-0">
+					<h3 class="skills__sub-title text-primary font-weight-light">FRONT-END</h3>
+					<div class="container-fluid">
+						<ul class="skills__list row">
+							<div class="skills__list--left col-6 pr-2 text-right border-right">
+								<li class="skills__list-item">HTML5</li>
+								<li class="skills__list-item">CSS3</li>
+								<li class="skills__list-item">SASS</li>
+								<li class="skills__list-item">JavaScript</li>
+								<li class="skills__list-item">Bootstrap</li>
+							</div>
+							<div class="skills__list--right col-6 pl-2 text-left border-left">
+								<li class="skills__list-item">React JS</li>
+								<li class="skills__list-item">Redux</li>
+								<li class="skills__list-item">jQuery</li>
+								<li class="skills__list-item">Responsive-</li>
+								<li class="skills__list-item">Design</li>
+							</div>
+						</ul>
+					</div>
+				</div>
 
-        <div class="project row bg-light shadow mx-0 mb-5">
-            
-            <div class="project__image bg-dark col-12 col-md-6 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/due9wnjtm/image/upload/v1578369108/wphj3ro3tywlr3p1zeox.png" alt="Car Trader project website screenshot">
-            </div>
-            
-            <div class="project__body col-12 col-md-6">
-                <h3 class="project__title text-center">Car Trader</h3>
-                
-                <p class="project__desc mt-3 my-md-0 mt-lg-2"><strong>Car Trader</strong> is a marketplace and solutions provider for the automotive industry that connects car shoppers with sellers. All the data displayed is being retrieved from the <a href="https://www.marketcheck.com/automotive">marketcheck</a>’s API making it a more dynamic web app.</p>
-                
-                <p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">Made with:
-                    <span class="project__technologies__elem badge badge-primary">JavaScript</span>
-                    <span class="project__technologies__elem badge badge-primary">CSS3</span>
-                    <span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
-                    <span class="project__technologies__elem badge badge-primary">Sass</span>
-                    <span class="project__technologies__elem badge badge-primary">React.js</span>
-                    <span class="project__technologies__elem badge badge-primary">Node.js</span>
-                    <span class="project__technologies__elem badge badge-primary">Express</span>
-                    <span class="project__technologies__elem badge badge-primary">REST API</span>
-                </p>
+				<div class="col-12 col-md-4 mt-5 mt-md-0">
+					<h3 class="skills__sub-title text-primary font-weight-light">BACK-END</h3>
+					<div class="container-fluid">
+						<ul class="skills__list row">
+							<div class="skills__list--left col-6 pr-2 text-right border-right">
+								<li class="skills__list-item">Node JS</li>
+								<li class="skills__list-item">Express</li>
+								<li class="skills__list-item">MongoDB</li>
+								<li class="skills__list-item">Mongoose</li>
+								<li class="skills__list-item">RESTful API</li>
+							</div>
+							<div class="skills__list--right col-6 pl-2 text-left border-left">
+								<li class="skills__list-item">Authentication</li>
+								<li class="skills__list-item">Sessions</li>
+								<li class="skills__list-item">JWT</li>
+								<li class="skills__list-item">EJS</li>
+								<li class="skills__list-item">HTTP</li>
+							</div>
+						</ul>
+					</div>
+				</div>
 
-            </div>
-            <div class="project__buttons">
-                <a href="https://github.com/Luther0211/book-review-project" class="btn btn-info shadow">CODE</a>
-                <a href="https://bookreviews-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
-            </div>    
-        </div>
+				<div class="col-12 col-md-4 mt-5 mt-md-0">
+					<h3 class="skills__sub-title text-primary font-weight-light">OTHER</h3>
+					<div class="container-fluid">
+						<ul class="skills__list row">
+							<div class="skills__list--left col-6 pr-2 text-right border-right">
+								<li class="skills__list-item">CLI</li>
+								<li class="skills__list-item">NPM</li>
+								<li class="skills__list-item">Git/GitHub</li>
+								<li class="skills__list-item">Postman</li>
+								<li class="skills__list-item">Compass</li>
+							</div>
+							<div class="skills__list--right col-6 pl-2 text-left border-left">
+								<li class="skills__list-item">Webpack</li>
+								<li class="skills__list-item">Babel</li>
+								<li class="skills__list-item">Async/Await</li>
+								<li class="skills__list-item">AJAX</li>
+								<li class="skills__list-item">MVC</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <div class="project row bg-light shadow mx-0 mb-5">
-            
-            <div class="project__image bg-dark col-12 col-md-6 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563145642/mmknrx7usdmhsymrbxt0.png" alt="Book Reviews project website screenshot">
-            </div>
-            
-            <div class="project__body col-12 col-md-6">
-                <h3 class="project__title text-center">Book Reviews</h3>
-                
-                <p class="project__desc mt-3 my-md-0 mt-lg-2">Search, Discover & Review over 2.6 billion books! Get book recomendations, save & remove books from your personal "book list" and more! This project uses <a href="https://www.goodreads.com/">Goodreads</a> API to get book data.</p>
-                
-                <p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">Made with:
-                    <span class="project__technologies__elem badge badge-primary">EJS</span>
-                    <span class="project__technologies__elem badge badge-primary">Sass</span>
-                    <span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
-                    <span class="project__technologies__elem badge badge-primary">JavaScript</span>
-                    <span class="project__technologies__elem badge badge-primary">Axios</span>
-                    <span class="project__technologies__elem badge badge-primary">Node.js</span>
-                    <span class="project__technologies__elem badge badge-primary">Express</span>
-                    <span class="project__technologies__elem badge badge-primary">MongoDB</span>
-                    <span class="project__technologies__elem badge badge-primary">Mongoose</span>
-                </p>
+		<section id="MyProjects" class="projects container mt-5">
+			<h2 class="projects__heading display-4 text-center mb-5">MY PROJECTS</h2>
 
-            </div>
-            <div class="project__buttons">
-                <a href="https://github.com/Luther0211/book-review-project" class="btn btn-info shadow">CODE</a>
-                <a href="https://bookreviews-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
-            </div>    
-        </div>
+			<div class="project row bg-light shadow mx-0 mb-5">
+				<div class="project__image bg-dark col-12 col-md-6 px-0">
+					<img
+						class="img-fluid"
+						src="src\imgs\Mortal-Space-Meteors.png"
+						alt="Car Trader project website screenshot"
+					/>
+				</div>
 
-        <div class="project row bg-light shadow mx-0 mb-5">
-            
-            <div class="project__image bg-dark col-12 col-md-6 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563143992/bmsafeytpnt7vpqjyr8x.png" alt="Face Recognition web app">
-            </div>
-            
-            <div class="project__body col-12 col-md-6">
-                <h3 class="project__title text-center">Face Recognition web app</h3>
-                
-                <p class="project__desc mt-3 my-md-0 mt-lg-2">With this little web app you can submit a photo URL and it will return all the faces found in the photo with all their information such as age, gender and ethnicity group. This web app uses <a href="https://www.clarifai.com/">Clarifai's</a> API for it's main functionality. </p>
-                
-                <p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">Made with:
-                    <span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
-                    <span class="project__technologies__elem badge badge-primary">JavaScript</span>
-                    <span class="project__technologies__elem badge badge-primary">React.js</span>
-                    <span class="project__technologies__elem badge badge-primary">Axios</span>
-                    <span class="project__technologies__elem badge badge-primary">Clarifai</span>
-                </p>
+				<div class="project__body col-12 col-md-6">
+					<h3 class="project__title text-center">Mortal Space Meteors 2</h3>
 
-            </div>
-            <div class="project__buttons">
-                <a href="https://github.com/Luther0211/face-detector-project--2" class="btn btn-info shadow">CODE</a>
-                <a href="https://image-recognition-projec-49fac.firebaseapp.com/" class="btn btn-primary shadow">LIVE</a>
-            </div>    
-        </div>
+					<p class="project__desc mt-3 my-md-0 mt-lg-2">
+						<strong>Mortal Space Meteors 2</strong> is a browser videogame fully made with JavaScript!
+					</p>
 
-        
+					<p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">
+						Made with:
+						<span class="project__technologies__elem badge badge-primary">JavaScript</span>
+						<span class="project__technologies__elem badge badge-primary">CSS3</span>
+					</p>
+				</div>
+				<div class="project__buttons">
+					<a href="https://github.com/lutherbarragan/Mortal-Space-Meteors-2" class="btn btn-info shadow"
+						>CODE</a
+					>
+					<a href="mortalspacemeteors2.netlify.app" class="btn btn-primary shadow">LIVE</a>
+				</div>
+			</div>
+			<div class="project row bg-light shadow mx-0 mb-5">
+				<div class="project__image bg-dark col-12 col-md-6 px-0">
+					<img
+						class="img-fluid"
+						src="https://res.cloudinary.com/due9wnjtm/image/upload/v1578369108/wphj3ro3tywlr3p1zeox.png"
+						alt="Car Trader project website screenshot"
+					/>
+				</div>
 
-        <div class="project row bg-light shadow mx-0 mb-5">
-            
-            <div class="project__image bg-dark col-12 col-md-6 px-0">
-                <img class="img-fluid" src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563416867/vuxylxhu3pt7mktaalb9.png" alt="Pokepedia project website screenshot">
-            </div>
-            
-            <div class="project__body col-12 col-md-6">
-                <h3 class="project__title text-center">POKEPEDIA</h3>
-                
-                <p class="project__desc mt-3 my-md-0 mt-lg-2">POKEPEDIA is an encyclopedia about Pokémon. Search and get full information about any Pokemon. This wiki uses <a href="https://pokeapi.co/">PokéAPI's</a> RESTful Pokémon API as it's main source of data for all of the information displayed.</p>
-                
-                <p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">Made with:
-                    <span class="project__technologies__elem badge badge-primary">HTML5</span>
-                    <span class="project__technologies__elem badge badge-primary">CSS3</span>
-                    <span class="project__technologies__elem badge badge-primary">JavaScript</span>
-                    <span class="project__technologies__elem badge badge-primary">Webpack</span>
-                    <span class="project__technologies__elem badge badge-primary">Babel</span>
-                    <span class="project__technologies__elem badge badge-primary">Axios</span>
-                    <span class="project__technologies__elem badge badge-primary">MVC</span>
-                </p>
+				<div class="project__body col-12 col-md-6">
+					<h3 class="project__title text-center">Car Trader</h3>
 
-            </div>
-            <div class="project__buttons">
-                <a href="https://github.com/Luther0211/wiki-project" class="btn btn-info shadow">CODE</a>
-                <a href="http://pokepedia-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
-            </div>    
-        </div>
+					<p class="project__desc mt-3 my-md-0 mt-lg-2">
+						<strong>Car Trader</strong> is a marketplace and solutions provider for the automotive industry
+						that connects car shoppers with sellers. All the data displayed is being retrieved from the
+						<a href="https://www.marketcheck.com/automotive">marketcheck</a>’s API making it a more dynamic
+						web app.
+					</p>
 
-    </section>
+					<p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">
+						Made with:
+						<span class="project__technologies__elem badge badge-primary">JavaScript</span>
+						<span class="project__technologies__elem badge badge-primary">CSS3</span>
+						<span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
+						<span class="project__technologies__elem badge badge-primary">Sass</span>
+						<span class="project__technologies__elem badge badge-primary">React.js</span>
+						<span class="project__technologies__elem badge badge-primary">Node.js</span>
+						<span class="project__technologies__elem badge badge-primary">Express</span>
+						<span class="project__technologies__elem badge badge-primary">REST API</span>
+					</p>
+				</div>
+				<div class="project__buttons">
+					<a href="https://github.com/Luther0211/book-review-project" class="btn btn-info shadow">CODE</a>
+					<a href="https://bookreviews-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
+				</div>
+			</div>
 
+			<div class="project row bg-light shadow mx-0 mb-5">
+				<div class="project__image bg-dark col-12 col-md-6 px-0">
+					<img
+						class="img-fluid"
+						src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563145642/mmknrx7usdmhsymrbxt0.png"
+						alt="Book Reviews project website screenshot"
+					/>
+				</div>
 
+				<div class="project__body col-12 col-md-6">
+					<h3 class="project__title text-center">Book Reviews</h3>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="/src/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/dist/js/particles.js"></script>
-    
-    <script src="/dist/js/main.js"></script>
-</body>
+					<p class="project__desc mt-3 my-md-0 mt-lg-2">
+						Search, Discover & Review over 2.6 billion books! Get book recomendations, save & remove books
+						from your personal "book list" and more! This project uses
+						<a href="https://www.goodreads.com/">Goodreads</a> API to get book data.
+					</p>
+
+					<p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">
+						Made with:
+						<span class="project__technologies__elem badge badge-primary">EJS</span>
+						<span class="project__technologies__elem badge badge-primary">Sass</span>
+						<span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
+						<span class="project__technologies__elem badge badge-primary">JavaScript</span>
+						<span class="project__technologies__elem badge badge-primary">Axios</span>
+						<span class="project__technologies__elem badge badge-primary">Node.js</span>
+						<span class="project__technologies__elem badge badge-primary">Express</span>
+						<span class="project__technologies__elem badge badge-primary">MongoDB</span>
+						<span class="project__technologies__elem badge badge-primary">Mongoose</span>
+					</p>
+				</div>
+				<div class="project__buttons">
+					<a href="https://github.com/Luther0211/book-review-project" class="btn btn-info shadow">CODE</a>
+					<a href="https://bookreviews-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
+				</div>
+			</div>
+
+			<div class="project row bg-light shadow mx-0 mb-5">
+				<div class="project__image bg-dark col-12 col-md-6 px-0">
+					<img
+						class="img-fluid"
+						src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563143992/bmsafeytpnt7vpqjyr8x.png"
+						alt="Face Recognition web app"
+					/>
+				</div>
+
+				<div class="project__body col-12 col-md-6">
+					<h3 class="project__title text-center">Face Recognition web app</h3>
+
+					<p class="project__desc mt-3 my-md-0 mt-lg-2">
+						With this little web app you can submit a photo URL and it will return all the faces found in
+						the photo with all their information such as age, gender and ethnicity group. This web app uses
+						<a href="https://www.clarifai.com/">Clarifai's</a> API for it's main functionality.
+					</p>
+
+					<p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">
+						Made with:
+						<span class="project__technologies__elem badge badge-primary">Bootstrap 4</span>
+						<span class="project__technologies__elem badge badge-primary">JavaScript</span>
+						<span class="project__technologies__elem badge badge-primary">React.js</span>
+						<span class="project__technologies__elem badge badge-primary">Axios</span>
+						<span class="project__technologies__elem badge badge-primary">Clarifai</span>
+					</p>
+				</div>
+				<div class="project__buttons">
+					<a href="https://github.com/Luther0211/face-detector-project--2" class="btn btn-info shadow"
+						>CODE</a
+					>
+					<a href="https://image-recognition-projec-49fac.firebaseapp.com/" class="btn btn-primary shadow"
+						>LIVE</a
+					>
+				</div>
+			</div>
+
+			<div class="project row bg-light shadow mx-0 mb-5">
+				<div class="project__image bg-dark col-12 col-md-6 px-0">
+					<img
+						class="img-fluid"
+						src="https://res.cloudinary.com/due9wnjtm/image/upload/v1563416867/vuxylxhu3pt7mktaalb9.png"
+						alt="Pokepedia project website screenshot"
+					/>
+				</div>
+
+				<div class="project__body col-12 col-md-6">
+					<h3 class="project__title text-center">POKEPEDIA</h3>
+
+					<p class="project__desc mt-3 my-md-0 mt-lg-2">
+						POKEPEDIA is an encyclopedia about Pokémon. Search and get full information about any Pokemon.
+						This wiki uses <a href="https://pokeapi.co/">PokéAPI's</a> RESTful Pokémon API as it's main
+						source of data for all of the information displayed.
+					</p>
+
+					<p class="project__technologies mt-3 mt-md-0 mt-lg-4 mb-5 mb-md-0">
+						Made with:
+						<span class="project__technologies__elem badge badge-primary">HTML5</span>
+						<span class="project__technologies__elem badge badge-primary">CSS3</span>
+						<span class="project__technologies__elem badge badge-primary">JavaScript</span>
+						<span class="project__technologies__elem badge badge-primary">Webpack</span>
+						<span class="project__technologies__elem badge badge-primary">Babel</span>
+						<span class="project__technologies__elem badge badge-primary">Axios</span>
+						<span class="project__technologies__elem badge badge-primary">MVC</span>
+					</p>
+				</div>
+				<div class="project__buttons">
+					<a href="https://github.com/Luther0211/wiki-project" class="btn btn-info shadow">CODE</a>
+					<a href="http://pokepedia-project.herokuapp.com/" class="btn btn-primary shadow">LIVE</a>
+				</div>
+			</div>
+		</section>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script src="/src/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="/dist/js/particles.js"></script>
+
+		<script src="/dist/js/main.js"></script>
+	</body>
 </html>
